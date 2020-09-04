@@ -1,0 +1,272 @@
+/*html {
+  scroll-behavior: smooth;
+}*/
+
+body {
+  font-family: 'lato', sans-serif;
+  text-align: center;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: 'Handlee', cursive;
+  font-size: 3.5rem;
+  color: #b0008e;
+  padding-top: 1.2rem;
+}
+
+h2 {
+  font-family: 'Raleway', light;
+  font-size: 1.5rem;
+  color: #b0008e;
+  padding-top: 1rem;
+}
+
+p {
+  color: rgba(73, 64, 74, 1);
+  font-weight: 300;
+  line-height: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.section_par {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+  color: rgba(73, 64, 74, 1);
+}
+
+/* navigation bar */
+.navbar {
+  background-color: rgba(230, 230, 230, 0.75);
+  padding: 0 15%;
+  width: auto;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #b0008e;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+/* section intro */
+#intro {
+  background: linear-gradient(rgba(176, 0, 142, 0.9), rgba(176, 0, 142, 0.4)),
+  url("../images/apple_BW.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-bg {
+  height: 720px;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding-top: 200px;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+hr {
+  color: #fff;
+  width: 120px;
+  border: 1px solid rgba(255,255,255,1);
+}
+
+.main_par {
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 2px;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+}
+
+section {
+  padding: 5% 15% 0 15%;
+}
+
+/* section about me */
+.scooter {
+  width: 25%;
+  margin: -2% 6% 0 0;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.animation .animate__animated.animate__bounceInLeftanimate__delay-2s {
+  --animate-duration: 2s;
+}
+
+.row {
+  padding: 2rem 0 3rem 0;
+  margin: 20px;
+}
+
+.col-lg-4 {
+  padding: 0 30px 0 30px;
+}
+
+.vignette {
+  width: 60px;
+}
+
+/* work */
+#work {
+  background-color: rgba(239, 235, 239, 1);
+}
+
+.portfolio {
+  padding-bottom: 2.5rem;
+}
+
+.fa-behance-square {
+  color: #b0008e;
+  font-size: 3rem;
+  margin-top: -0.5rem;
+  transition: 0.3s;
+}
+
+.fa-behance-square:hover {
+  color: #7d0065;
+  transition: 0.3s;
+}
+
+.col-lg-6 {
+  margin-bottom: 2rem;
+}
+/* skills */
+.skills-title {
+  padding: 0.8rem 0 1.5rem 0;
+}
+
+.icons {
+  padding: 0 0 5rem 0;
+  margin: 0 120px 0 120px;
+}
+
+.software {
+  width: 75%;
+}
+
+.col-lg-2 {
+  padding: 20px 5px 0 5px;
+}
+
+/* contact */
+#contact {
+  background-color: rgba(239, 235, 239, 1);
+  padding-bottom: 5rem;
+}
+
+.computer {
+  width: 20%;
+}
+
+.contact-me {
+  padding: 0 20px 0 20px;
+  margin-top: 2rem;
+  display: Inline-block;
+}
+
+.fa-envelope {
+  color: #b0008e;
+  font-size: 4rem;
+  transition: 0.3s;
+}
+.fa-envelope:hover {
+color: #7d0065;
+transition: 0.3s;
+}
+
+.fa-mobile-alt {
+  color: #b0008e;
+  font-size: 4rem;
+}
+
+.phone{
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 0.4rem;
+  margin-top: -20px;
+  margin-bottom: 12px;
+}
+/* footer */
+#footer {
+  padding: 10px 0 10px 0;
+  background-color: rgba(73, 64, 74, 1);
+}
+
+ul {
+  margin-top: 1.5rem;
+  padding-left: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  font-size: 2rem;
+  padding-right: 16px;
+}
+
+.fa-linkedin {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.fa-linkedin:hover {
+  color: #9e7691;
+  transition: 0.3s;
+}
+
+.fa-instagram-square {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.fa-instagram-square:hover {
+  color: #9e7691;
+  transition: 0.3s;
+}
+
+.fa-youtube-square {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.fa-youtube-square:hover {
+  color: #9e7691;
+  transition: 0.3s;
+}
+
+/* Span */
+.bold-pink {
+  color: #b0008e;
+  font-weight: 700;
+}
+
+.white {
+  color: #fff;
+}
+
+/* media query */
+@media (max-width: 600px) {
+  h1 { font-size: 2.5rem; }
+}
+
+@media (max-width: 600px) {
+  .scooter { display: none; }
+}
+
+@media (max-width: 600px) {
+  .section_par { font-size: 1rem;
+  line-height: 1.5rem; }
+}
+
+@media (max-width: 600px) {
+   .icons { margin: 0 20px 0 20px; }
+}
+
+@media (max-width: 600px) {
+  .computer { display: none; }
+}
