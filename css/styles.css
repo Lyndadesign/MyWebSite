@@ -1,6 +1,3 @@
-/*html {
-  scroll-behavior: smooth;
-}*/
 
 body {
   font-family: 'lato', sans-serif;
@@ -250,12 +247,21 @@ ul {
 }
 
 /* media query */
+@media (max-width: 400px) {
+  .navbar { padding: 0 5%; }
+}
+
+
 @media (max-width: 600px) {
   h1 { font-size: 2.5rem; }
 }
 
 @media (max-width: 600px) {
   .scooter { display: none; }
+}
+
+@media (max-width: 375px) {
+  .col-12 { padding: 0 15px 0 15px; }
 }
 
 @media (max-width: 600px) {
