@@ -98,7 +98,7 @@ section {
 
 .row {
   padding: 2rem 0 3rem 0;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .col-lg-4 {
@@ -248,7 +248,7 @@ ul {
 
 /* media query */
 @media (max-width: 400px) {
-  .navbar { padding: 0 5%; }
+  .navbar { padding: 0 15%; }
 }
 
 
@@ -258,10 +258,6 @@ ul {
 
 @media (max-width: 600px) {
   .scooter { display: none; }
-}
-
-@media (max-width: 375px) {
-  .col-12 { padding: 0 15px 0 15px; }
 }
 
 @media (max-width: 600px) {
